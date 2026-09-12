@@ -1,9 +1,18 @@
 import { Component } from '@angular/core';
 
 @Component({
-  imports: [],
   selector: 'app-acgtividades',
-  styleUrl: './acgtividades.css',
+  standalone: true,
+  imports: [],
   templateUrl: './acgtividades.html',
+  styleUrl: './acgtividades.css'
 })
-export class Acgtividades {}
+//array actividades
+export class Acgtividades{
+  actividades = [
+    { id: 1, nombre: 'Duelo a muerte con cuchillos', descripcion: 'actividad peligrosa' },
+    { id: 2, nombre: 'Cacería en grupo', descripcion: 'actividad ilegal?' },
+    { id: 3, nombre: 'Investigación de escena del crimen', descripcion: 'no deberian estar ahi' },
+    { id: 4, nombre: 'Fútbol', descripcion: 'pelota, gol, messi' }
+  ];
+}

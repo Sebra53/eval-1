@@ -1,1 +1,12 @@
-<p>acgtividades works!</p>
+<section class="contenedor-actividades">
+  <h2>actividades disponibles</h2>
+  <p>actividades muy divertidas</p>
+
+  <ul class="lista-actividades">
+    @for (item of actividades; track item.id) {
+      <li>
+        <strong>{{ item.nombre }}</strong>: {{ item.descripcion }}
+      </li>
+    }
+  </ul>
+</section>

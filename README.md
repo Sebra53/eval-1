@@ -16,3 +16,11 @@
 # commit 1 llevaba el contenido de commit 2 definicion de rutas atraves del menu 
 esto gracias a referenciar los componenr en menu html
 con routerlink para cada uno 
+
+# c ommit 2 contempla el formulario 
+@angular/forms herraminetas para controlar el form
+
+Validators: las reglas de validación: tipos de datos como email y largos(length)
+
+# commit 3
+estilos css esteticos y arreglos faltantes 
